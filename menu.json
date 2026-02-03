@@ -1,0 +1,78 @@
+{
+  "shop": {
+    "name": "Sông Quê Coffee & Tea",
+    "hotline": "0327 869 098",
+    "currency": "VND"
+  },
+  "categories": [
+    {
+      "id": "traditional",
+      "name_vi": "Pha chế truyền thống",
+      "name_en": "Traditional Drinks",
+      "items": [
+        { "id": "khoang_chanh_duong", "name_vi": "Khoáng chanh đường", "name_en": "Sparkling Lime Drink" },
+        { "id": "cacao", "name_vi": "Cacao", "name_en": "Cocoa" },
+        { "id": "da_chanh", "name_vi": "Đá chanh / Chanh nóng", "name_en": "Iced Lime / Hot Lime Tea" },
+        { "id": "sua_da_chanh", "name_vi": "Sữa đá chanh", "name_en": "Milk with Lime" },
+        { "id": "sua_nong", "name_vi": "Sữa nóng", "name_en": "Hot Milk" },
+        { "id": "sua_sam_dua", "name_vi": "Sữa sâm dứa", "name_en": "Pandan Milk" },
+        { "id": "tra_lipton", "name_vi": "Trà Lipton", "name_en": "Lipton Tea" },
+        { "id": "tra_gung", "name_vi": "Trà gừng", "name_en": "Ginger Tea" },
+        { "id": "yogurt_da", "name_vi": "Yogurt đá", "name_en": "Iced Yogurt" },
+        { "id": "yogurt_dac", "name_vi": "Yogurt đặc", "name_en": "Condensed Yogurt" },
+        { "id": "yogurt_dau_tam", "name_vi": "Yogurt dâu tằm", "name_en": "Mulberry Yogurt" }
+      ]
+    },
+    {
+      "id": "coffee",
+      "name_vi": "Cà phê",
+      "name_en": "Coffee",
+      "items": [
+        { "id": "bac_xiu", "name_vi": "Bạc xỉu", "name_en": "White Coffee (Milk Coffee)" },
+        { "id": "ca_phe_den", "name_vi": "Cà phê đen", "name_en": "Black Coffee" },
+        { "id": "ca_phe_den_da", "name_vi": "Cà phê đen đá", "name_en": "Iced Black Coffee" },
+        { "id": "ca_phe_sua", "name_vi": "Cà phê sữa", "name_en": "Milk Coffee" },
+        { "id": "ca_phe_sua_da", "name_vi": "Cà phê sữa đá", "name_en": "Iced Milk Coffee" }
+      ]
+    },
+    {
+      "id": "juice",
+      "name_vi": "Nước ép - Dừa tươi",
+      "name_en": "Fresh Juice & Coconut",
+      "note_vi": "Theo mùa",
+      "note_en": "Seasonal",
+      "items": [
+        { "id": "dua_tuoi", "name_vi": "Dừa tươi", "name_en": "Fresh Coconut" },
+        { "id": "nuoc_cam_ep", "name_vi": "Nước cam ép", "name_en": "Orange Juice" },
+        { "id": "nuoc_ep_oi", "name_vi": "Nước ép ổi", "name_en": "Guava Juice" },
+        { "id": "nuoc_ep_thom", "name_vi": "Nước ép thơm", "name_en": "Pineapple Juice" },
+        { "id": "nuoc_ep_ca_chua", "name_vi": "Nước ép cà chua", "name_en": "Tomato Juice" },
+        { "id": "nuoc_ep_ca_rot", "name_vi": "Nước ép cà rốt", "name_en": "Carrot Juice" }
+      ]
+    },
+    {
+      "id": "bottled",
+      "name_vi": "Nước lon - chai",
+      "name_en": "Bottled & Canned Drinks",
+      "items": [
+        { "id": "xa_xi", "name_vi": "Xá xị", "name_en": "Sarsi Soda" },
+        { "id": "bo_huc", "name_vi": "Bò húc (Redbull)", "name_en": "Red Bull" },
+        { "id": "bi_dao", "name_vi": "Bí đao", "name_en": "Winter Melon Drink" },
+        { "id": "seven_up", "name_vi": "7 Up", "name_en": "7 Up" },
+        { "id": "dr_thanh", "name_vi": "Dr. Thanh", "name_en": "Dr. Thanh Herbal Tea" },
+        { "id": "nuoc_yen", "name_vi": "Nước yến", "name_en": "Bird’s Nest Drink" },
+        { "id": "nuoc_yen_nha_dam", "name_vi": "Nước yến nha đam", "name_en": "Bird’s Nest with Aloe Vera" },
+        { "id": "nutri_dau", "name_vi": "Nutri dâu", "name_en": "Strawberry Milk Drink" },
+        { "id": "nuoc_khoang_lat", "name_vi": "Nước khoáng lạt / ngọt", "name_en": "Mineral Water" },
+        { "id": "pepsi", "name_vi": "Pepsi", "name_en": "Pepsi" },
+        { "id": "tra_o_long", "name_vi": "Trà ô long", "name_en": "Oolong Tea" },
+        { "id": "tra_xanh_0_do", "name_vi": "Trà xanh 0°", "name_en": "Zero Degree Green Tea" },
+        { "id": "revive", "name_vi": "Revive / Revive chanh muối", "name_en": "Revive / Revive Salted Lemon" },
+        { "id": "sting", "name_vi": "Sting", "name_en": "Sting Energy Drink" },
+        { "id": "sua_hop_yomost", "name_vi": "Sữa hộp Yomost", "name_en": "Yomost Yogurt Drink" },
+        { "id": "sua_chua_hop", "name_vi": "Sữa chua hộp", "name_en": "Yogurt Cup" },
+        { "id": "sua_bich", "name_vi": "Sữa bịch", "name_en": "Milk Bag" }
+      ]
+    }
+  ]
+}
