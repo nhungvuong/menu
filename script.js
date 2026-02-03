@@ -36,7 +36,7 @@ function renderMenu(data) {
   });
 
   footerEl.innerHTML = `
-    <p>${data.shop.name_vi}</p>
+    <p>${data.shop.name}</p>
     <p>Hotline: ${data.shop.hotline}</p>
   `;
 }
