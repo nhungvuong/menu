@@ -23,11 +23,10 @@ function renderMenu(data) {
     section.className = "category";
 
     section.innerHTML = `
-      <h2>${category.name_vi} (${category.name_en})</h2>
-      ${category.note_vi ? `<p class="note">${category.note_vi} (${category.note_vi})</p>` : ""}
+      <div class="category-title">${category.name_vi} <br> (${category.name_en})</div>
       <ul class="items">
         ${category.items.map(item =>
-          `<li class="item">${item.name_vi} (${item.name_en})</li>`
+          `<li class="item">${item.name_vi} <br> <span class="item-name-en">(${item.name_en})</span></li>`
         ).join("")}
       </ul>
     `;
