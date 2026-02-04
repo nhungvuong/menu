@@ -13,7 +13,8 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  margin-top: -5px;
+  margin-top: -10px;
+  height: 73vh;
 }
 
 .menu-title {
@@ -29,7 +30,7 @@ body {
   flex-wrap: wrap;
   gap: 8px;
   margin-top: 8px;
-  padding-top: 110px;
+  padding-top: 100px;
 }
 
 /* Category cards */
@@ -47,8 +48,8 @@ body {
 }
 
 .category-image {
-  width: 120px;
-  height: 120px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
   border-radius: 100px;
 }
@@ -60,7 +61,6 @@ body {
 .category-card h2 {
   font-size: 18px;
   color: #5b3a29;
-  margin-bottom: 0;
   margin-top: 0;
 }
 

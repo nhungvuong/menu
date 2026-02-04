@@ -24,7 +24,7 @@ function renderCategories(categories) {
     card.className = "category-card";
     card.innerHTML = `
       <img src="${cat.image}" alt="${cat.name_vi}" class="category-image" />
-      <h2>${cat.name_vi} <br> ${cat.note_vi ? `<p class="note">(${cat.note_vi})</p>` : ""}</h2>
+      <h2>${cat.name_vi} <br> <span style="font-size:14px;">(${cat.name_en})</span></h2>
     `;
 
     card.onclick = () => openCategory(cat);
@@ -40,7 +40,7 @@ function openCategory(category) {
 
   productEl.innerHTML = `
     <button class="back-btn" onclick="backToCategories()">← Danh mục</button>
-    <h2 class="category-title">${category.name_vi} <br> ${category.name_en} </h2>
+    <h2 class="category-title">${category.name_vi} </h2>
     ${category.note_vi ? `<p class="note">${category.note_vi}</p>` : ""}
     <ul class="items">
       ${category.items.map(item =>
