@@ -1,41 +1,64 @@
+let menuData = null;
+
 document.addEventListener("DOMContentLoaded", () => {
   fetch("/menu.json")
-    .then(res => {
-      if (!res.ok) throw new Error("Không load được menu.json");
-      return res.json();
+    .then(res => res.json())
+    .then(data => {
+      menuData = data;
+      renderCategories(data.categories);
+      renderFooter(data.shop);
     })
-    .then(data => renderMenu(data))
-    .catch(err => {
-      document.getElementById("menu").innerHTML =
+    .catch(() => {
+      document.getElementById("category-list").innerHTML =
         "<p style='text-align:center;color:red'>Không tải được menu</p>";
-      console.error(err);
     });
 });
 
-function renderMenu(data) {
-  const menuEl = document.getElementById("menu");
-  const footerEl = document.getElementById("footer");
+/* ========== CATEGORY VIEW ========== */
+function renderCategories(categories) {
+  const el = document.getElementById("category-list");
+  el.innerHTML = "";
 
-  menuEl.innerHTML = "";
-
-  data.categories.forEach(category => {
-    const section = document.createElement("section");
-    section.className = "category";
-
-    section.innerHTML = `
-      <div class="category-title">${category.name_vi} <br> (${category.name_en})</div>
-      <ul class="items">
-        ${category.items.map(item =>
-          `<li class="item">${item.name_vi} <br> <span class="item-name-en">(${item.name_en})</span></li>`
-        ).join("")}
-      </ul>
+  categories.forEach(cat => {
+    const card = document.createElement("div");
+    card.className = "category-card";
+    card.innerHTML = `
+      <img src="${cat.image}" alt="${cat.name_vi}" class="category-image" />
+      <h2>${cat.name_vi} <br> ${cat.note_vi ? `<p class="note">(${cat.note_vi})</p>` : ""}</h2>
     `;
 
-    menuEl.appendChild(section);
+    card.onclick = () => openCategory(cat);
+    el.appendChild(card);
   });
+}
 
-  footerEl.innerHTML = `
-    <p>${data.shop.name}</p>
-    <p>Hotline: ${data.shop.hotline}</p>
+/* ========== PRODUCT VIEW ========== */
+function openCategory(category) {
+  document.getElementById("category-list").classList.add("hidden");
+  const productEl = document.getElementById("product-list");
+  productEl.classList.remove("hidden");
+
+  productEl.innerHTML = `
+    <button class="back-btn" onclick="backToCategories()">← Danh mục</button>
+    <h2 class="category-title">${category.name_vi} <br> ${category.name_en} </h2>
+    ${category.note_vi ? `<p class="note">${category.note_vi}</p>` : ""}
+    <ul class="items">
+      ${category.items.map(item =>
+        `<li class="item">${item.name_vi}</li>`
+      ).join("")}
+    </ul>
+  `;
+}
+
+function backToCategories() {
+  document.getElementById("product-list").classList.add("hidden");
+  document.getElementById("category-list").classList.remove("hidden");
+}
+
+/* ========== FOOTER ========== */
+function renderFooter(shop) {
+  document.getElementById("footer").innerHTML = `
+    <p>${shop.name}</p>
+    <p>Hotline: ${shop.hotline}</p>
   `;
 }

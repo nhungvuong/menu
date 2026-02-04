@@ -9,6 +9,7 @@
       "id": "traditional",
       "name_vi": "Pha chế truyền thống",
       "name_en": "Traditional Drinks",
+      "image": "./assets/images/pha-che-truyen-thong.jpg",
       "items": [
         { "id": "khoang_chanh_duong", "name_vi": "Khoáng chanh đường", "name_en": "Sparkling Lime Drink" },
         { "id": "cacao", "name_vi": "Cacao", "name_en": "Cocoa" },
@@ -27,6 +28,7 @@
       "id": "coffee",
       "name_vi": "Cà phê",
       "name_en": "Coffee",
+      "image": "./assets/images/ca-phe.jpg",
       "items": [
         { "id": "bac_xiu", "name_vi": "Bạc xỉu", "name_en": "White Coffee (Milk Coffee)" },
         { "id": "ca_phe_den", "name_vi": "Cà phê đen", "name_en": "Black Coffee" },
@@ -41,6 +43,7 @@
       "name_en": "Fresh Juice & Coconut",
       "note_vi": "Theo mùa",
       "note_en": "Seasonal",
+      "image": "./assets/images/nuoc-ep.jpg",
       "items": [
         { "id": "dua_tuoi", "name_vi": "Dừa tươi", "name_en": "Fresh Coconut" },
         { "id": "nuoc_cam_ep", "name_vi": "Nước cam ép", "name_en": "Orange Juice" },
@@ -54,6 +57,7 @@
       "id": "bottled",
       "name_vi": "Nước lon - chai",
       "name_en": "Bottled & Canned Drinks",
+      "image": "./assets/images/nuoc-lon.jpg",
       "items": [
         { "id": "xa_xi", "name_vi": "Xá xị", "name_en": "Sarsi Soda" },
         { "id": "bo_huc", "name_vi": "Bò húc (Redbull)", "name_en": "Red Bull" },
