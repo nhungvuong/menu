@@ -1,6 +1,9 @@
 let menuData = null;
+let backBtn = null;
 
 document.addEventListener("DOMContentLoaded", () => {
+  backBtn = document.getElementById("back-btn");
+
   fetch("/menu.json")
     .then(res => res.json())
     .then(data => {
@@ -12,9 +15,13 @@ document.addEventListener("DOMContentLoaded", () => {
       document.getElementById("category-list").innerHTML =
         "<p style='text-align:center;color:red'>Không tải được menu</p>";
     });
+
+  backBtn.onclick = backToCategories;
 });
 
-/* ========== CATEGORY VIEW ========== */
+
+/* ================= CATEGORY VIEW ================= */
+
 function renderCategories(categories) {
   const el = document.getElementById("category-list");
   el.innerHTML = "";
@@ -22,9 +29,14 @@ function renderCategories(categories) {
   categories.forEach(cat => {
     const card = document.createElement("div");
     card.className = "category-card";
+
     card.innerHTML = `
-      <img src="${cat.image}" alt="${cat.name_vi}" class="category-image" />
-      <h2>${cat.name_vi} <br> <span style="font-size:14px;">(${cat.name_en})</span></h2>
+      <img src="${cat.image}" class="category-image"/>
+      <h2>
+        ${cat.name_vi}
+        <br>
+        <span class="en-name">(${cat.name_en})</span>
+      </h2>
     `;
 
     card.onclick = () => openCategory(cat);
@@ -32,33 +44,53 @@ function renderCategories(categories) {
   });
 }
 
-/* ========== PRODUCT VIEW ========== */
+
+/* ================= PRODUCT VIEW ================= */
+
 function openCategory(category) {
+
   document.getElementById("category-list").classList.add("hidden");
+
   const productEl = document.getElementById("product-list");
   productEl.classList.remove("hidden");
 
+  backBtn.style.display = "inline-block";
+
   productEl.innerHTML = `
-    <button class="back-btn" onclick="backToCategories()">← Danh mục</button>
-    <h2 class="category-title">${category.name_vi} </h2>
+    <h2 class="category-title">${category.name_vi}</h2>
     ${category.note_vi ? `<p class="note">${category.note_vi}</p>` : ""}
-    <ul class="items">
-      ${category.items.map(item =>
-        `<li class="item">${item.name_vi}</li>`
-      ).join("")}
-    </ul>
+
+    <div class="items">
+      ${category.items.map(item => `
+        <div class="product-card">
+          <img src="${item.image}" class="category-image"/>
+          <div class="product-name">
+            ${item.name_vi}
+            <br>
+            <span class="product-en-name">(${item.name_en})</span>
+          </div>
+        </div>
+      `).join("")}
+    </div>
   `;
 }
+
 
 function backToCategories() {
   document.getElementById("product-list").classList.add("hidden");
   document.getElementById("category-list").classList.remove("hidden");
+
+  backBtn.style.display = "none";
 }
 
-/* ========== FOOTER ========== */
+
+/* ================= FOOTER ================= */
+
 function renderFooter(shop) {
   document.getElementById("footer").innerHTML = `
-    <p>${shop.name}</p>
-    <p>Hotline: ${shop.hotline}</p>
+    <div>
+      ${shop.name}<br>
+      Hotline: ${shop.hotline}
+    </div>
   `;
 }
