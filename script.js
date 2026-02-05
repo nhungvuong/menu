@@ -58,7 +58,6 @@ function openCategory(category) {
 
   productEl.innerHTML = `
     <h2 class="category-title">${category.name_vi}</h2>
-    ${category.note_vi ? `<p class="note">${category.note_vi}</p>` : ""}
 
     <div class="items">
       ${category.items.map(item => `
