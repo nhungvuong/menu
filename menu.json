@@ -12,16 +12,18 @@
       "image": "./assets/images/pha-che-truyen-thong.jpg",
       "items": [
         { "id": "khoang_chanh_duong", "name_vi": "Khoáng chanh đường", "name_en": "Sparkling Lime Drink", "image": "./assets/images/pha-che-truyen-thong.jpg" },
-        { "id": "cacao", "name_vi": "Cacao", "name_en": "Cocoa", "image": "./assets/images/pha-che-truyen-thong.jpg" },
+        { "id": "cacao_nóng", "name_vi": "Cacao nóng", "name_en": "Hot Cocoa", "image": "./assets/images/cacao-nong.png" },
+        { "id": "cacao_da", "name_vi": "Cacao đá", "name_en": "Iced Cocoa", "image": "./assets/images/cacao-da.png" },
         { "id": "da_chanh", "name_vi": "Đá chanh / Chanh nóng", "name_en": "Iced Lime / Hot Lime Tea", "image": "./assets/images/pha-che-truyen-thong.jpg" },
         { "id": "sua_da_chanh", "name_vi": "Sữa đá chanh", "name_en": "Milk with Lime", "image": "./assets/images/pha-che-truyen-thong.jpg" },
         { "id": "sua_nong", "name_vi": "Sữa nóng", "name_en": "Hot Milk", "image": "./assets/images/pha-che-truyen-thong.jpg" },
-        { "id": "sua_sam_dua", "name_vi": "Sữa sâm dứa", "name_en": "Pandan Milk", "image": "./assets/images/pha-che-truyen-thong.jpg" },
+        { "id": "sua_sam_dua", "name_vi": "Sữa sâm dứa", "name_en": "Pandan Milk", "image": "./assets/images/sam-dua.png" },
         { "id": "tra_lipton", "name_vi": "Trà Lipton", "name_en": "Lipton Tea", "image": "./assets/images/pha-che-truyen-thong.jpg" },
         { "id": "tra_gung", "name_vi": "Trà gừng", "name_en": "Ginger Tea", "image": "./assets/images/pha-che-truyen-thong.jpg" },
         { "id": "yogurt_da", "name_vi": "Yogurt đá", "name_en": "Iced Yogurt", "image": "./assets/images/pha-che-truyen-thong.jpg" },
         { "id": "yogurt_dac", "name_vi": "Yogurt đặc", "name_en": "Condensed Yogurt", "image": "./assets/images/pha-che-truyen-thong.jpg" },
-        { "id": "yogurt_dau_tam", "name_vi": "Yogurt dâu tằm", "name_en": "Mulberry Yogurt", "image": "./assets/images/pha-che-truyen-thong.jpg" }
+        { "id": "yogurt_dau_tam", "name_vi": "Yogurt dâu tằm", "name_en": "Mulberry Yogurt", "image": "./assets/images/pha-che-truyen-thong.jpg" },
+        { "id": "sua_chua_viet_quat", "name_vi": "Sữa chua việt quất", "name_en": "Blueberry Yogurt Drink", "image": "./assets/images/sua-chua-viet-quat.png" }
       ]
     },
     {
@@ -30,11 +32,11 @@
       "name_en": "Coffee",
       "image": "./assets/images/ca-phe.jpg",
       "items": [
-        { "id": "bac_xiu", "name_vi": "Bạc xỉu", "name_en": "White Coffee (Milk Coffee)", "image": "./assets/images/ca-phe.jpg" },
+        { "id": "bac_xiu", "name_vi": "Bạc xỉu", "name_en": "White Coffee (Milk Coffee)", "image": "./assets/images/bac-xiu.png" },
         { "id": "ca_phe_den", "name_vi": "Cà phê đen", "name_en": "Black Coffee", "image": "./assets/images/ca-phe.jpg" },
         { "id": "ca_phe_den_da", "name_vi": "Cà phê đen đá", "name_en": "Iced Black Coffee", "image": "./assets/images/ca-phe.jpg" },
-        { "id": "ca_phe_sua", "name_vi": "Cà phê sữa", "name_en": "Milk Coffee", "image": "./assets/images/ca-phe.jpg" },
-        { "id": "ca_phe_sua_da", "name_vi": "Cà phê sữa đá", "name_en": "Iced Milk Coffee", "image": "./assets/images/ca-phe.jpg" }
+        { "id": "ca_phe_sua", "name_vi": "Cà phê sữa", "name_en": "Milk Coffee", "image": "./assets/images/cf-sua.png" },
+        { "id": "ca_phe_sua_da", "name_vi": "Cà phê sữa đá", "name_en": "Iced Milk Coffee", "image": "./assets/images/cf-sua-da.png" }
       ]
     },
     {
@@ -59,23 +61,25 @@
       "name_en": "Bottled & Canned Drinks",
       "image": "./assets/images/nuoc-lon.jpg",
       "items": [
-        { "id": "xa_xi", "name_vi": "Xá xị", "name_en": "Sarsi Soda", "image": "./assets/images/nuoc-lon.jpg" },
-        { "id": "bo_huc", "name_vi": "Bò húc (Redbull)", "name_en": "Red Bull", "image": "./assets/images/nuoc-lon.jpg" },
-        { "id": "bi_dao", "name_vi": "Bí đao", "name_en": "Winter Melon Drink", "image": "./assets/images/nuoc-lon.jpg" },
-        { "id": "seven_up", "name_vi": "7 Up", "name_en": "7 Up", "image": "./assets/images/nuoc-lon.jpg" },
-        { "id": "dr_thanh", "name_vi": "Dr. Thanh", "name_en": "Dr. Thanh Herbal Tea", 	"image": "./assets/images/nuoc-lon.jpg"},
-        { "id": "nuoc_yen", "name_vi": "Nước yến", "name_en": "Bird’s Nest Drink", 	"image": "./assets/images/nuoc-lon.jpg"},
-        { "id": "nuoc_yen_nha_dam", "name_vi": "Nước yến nha đam", "name_en": "Bird’s Nest with Aloe Vera", "image": "./assets/images/nuoc-lon.jpg" },
-        { "id": "nutri_dau", "name_vi": "Nutri dâu", "name_en": "Strawberry Milk Drink", "image": "./assets/images/nuoc-lon.jpg" },
-        { "id": "nuoc_khoang_lat", "name_vi": "Nước khoáng lạt / ngọt", "name_en": "Mineral Water", "image": "./assets/images/nuoc-lon.jpg" },
-        { "id": "pepsi", "name_vi": "Pepsi", "name_en": "Pepsi", "image": "./assets/images/nuoc-lon.jpg" },
-        { "id": "tra_o_long", "name_vi": "Trà ô long", "name_en": "Oolong Tea", 	"image": "./assets/images/nuoc-lon.jpg"},
-        { "id": "tra_xanh_0_do", "name_vi": "Trà xanh 0°", "name_en": "Zero Degree Green Tea", 	"image": "./assets/images/nuoc-lon.jpg"},
-        { "id": "revive", "name_vi": "Revive / Revive chanh muối",	"name_en":	"Revive / Revive Salted Lemon", 	"image": "./assets/images/nuoc-lon.jpg"},
-        { "id": "sting",	"name_vi":"Sting","name_en":"Sting Energy Drink","image":"./assets/images/nuoc-lon.jpg"},
-        {	"id":"sua_hop_yomost","name_vi":"Sữa hộp Yomost","name_en":"Yomost Yogurt Drink","image":"./assets/images/nuoc-lon.jpg"},
-        {	"id":"sua_chua_hop","name_vi":"Sữa chua hộp","name_en":"Yogurt Cup","image":"./assets/images/nuoc-lon.jpg"},
-        { "id": "sua_bich", "name_vi": "Sữa bịch", "name_en": "Milk Bag", "image": "./assets/images/nuoc-lon.jpg" }
+        { "id": "xa_xi", "name_vi": "Xá xị", "name_en": "Sarsi Soda", "image": "./assets/images/xa-xi.png" },
+        { "id": "bo_huc", "name_vi": "Bò húc (Redbull)", "name_en": "Red Bull", "image": "./assets/images/bo-huc.png" },
+        { "id": "bi_dao", "name_vi": "Bí đao", "name_en": "Winter Melon Drink", "image": "./assets/images/bi-dao.png" },
+        { "id": "seven_up", "name_vi": "7 Up", "name_en": "7 Up", "image": "./assets/images/7up.png" },
+        { "id": "dr_thanh", "name_vi": "Dr. Thanh", "name_en": "Dr. Thanh Herbal Tea", 	"image": "./assets/images/dr-thanh.png"},
+        { "id": "nuoc_yen", "name_vi": "Nước yến", "name_en": "Bird’s Nest Drink", 	"image": "./assets/images/yen.png"},
+        { "id": "nuoc_yen_nha_dam", "name_vi": "Nước yến nha đam", "name_en": "Bird’s Nest with Aloe Vera", "image": "./assets/images/yen-nha-dam.png" },
+        { "id": "nutri_dau", "name_vi": "Nutri dâu", "name_en": "Strawberry Milk Drink", "image": "./assets/images/nutri.png" },
+        { "id": "nuoc_khoang_lat", "name_vi": "Nước khoáng lạt / ngọt", "name_en": "Mineral Water", "image": "./assets/images/khoang-lat.png" },
+        { "id": "nuoc_khoang_ngot", "name_vi": "Nước khoáng ngọt", "name_en": "Mineral Water", "image": "./assets/images/khoang-ngot.png" },
+        { "id": "pepsi", "name_vi": "Pepsi", "name_en": "Pepsi", "image": "./assets/images/pepsi.png" },
+        { "id": "tra_o_long", "name_vi": "Trà ô long", "name_en": "Oolong Tea", 	"image": "./assets/images/o-long.png"},
+        { "id": "tra_xanh_0_do", "name_vi": "Trà xanh 0°", "name_en": "Zero Degree Green Tea", 	"image": "./assets/images/khong-do.png"},
+        { "id": "revive", "name_vi": "Revive",	"name_en":	"Revive", 	"image": "./assets/images/revise.png"},
+        { "id": "revive_chanh_muối", "name_vi": "Revive chanh muối",	"name_en":	"Revive Salted Lemon", 	"image": "./assets/images/chanh-muoi.png"},
+        { "id": "sting",	"name_vi":"Sting","name_en":"Sting Energy Drink","image":"./assets/images/sting.png"},
+        {	"id":"sua_hop_yomost","name_vi":"Sữa hộp Yomost","name_en":"Yomost Yogurt Drink","image":"./assets/images/yomost.png"},
+        {	"id":"sua_chua_hop","name_vi":"Sữa chua hộp","name_en":"Yogurt Cup","image":"./assets/images/sua-chua.png"},
+        { "id": "sua_bich", "name_vi": "Sữa bịch", "name_en": "Milk Bag", "image": "./assets/images/sua-bich.png" }
       ]
     },
     {

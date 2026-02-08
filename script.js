@@ -62,7 +62,7 @@ function openCategory(category) {
     <div class="items">
       ${category.items.map(item => `
         <div class="product-card">
-          <img src="${item.image}" class="category-image"/>
+          <img src="${item.image}" class="product-image"/>
           <div class="product-name">
             ${item.name_vi}
             <br>

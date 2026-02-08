@@ -93,8 +93,14 @@ body {
 }
 
 .product-card {
-  width: 180px;
+  width: 100px;
   text-align: center;
+}
+
+.product-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
 }
 
 .product-name {
