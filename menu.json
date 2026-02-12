@@ -21,9 +21,9 @@
         { "id": "sua_sam_dua", "name_vi": "Sữa sâm dứa", "name_en": "Pandan Milk", "image": "./assets/images/sam-dua.png" },
         { "id": "tra_lipton", "name_vi": "Trà Lipton", "name_en": "Lipton Tea", "image": "./assets/images/pha-che-truyen-thong.jpg" },
         { "id": "tra_gung", "name_vi": "Trà gừng", "name_en": "Ginger Tea", "image": "./assets/images/pha-che-truyen-thong.jpg" },
-        { "id": "yogurt_da", "name_vi": "Yogurt đá", "name_en": "Iced Yogurt", "image": "./assets/images/pha-che-truyen-thong.jpg" },
-        { "id": "yogurt_dac", "name_vi": "Yogurt đặc", "name_en": "Condensed Yogurt", "image": "./assets/images/pha-che-truyen-thong.jpg" },
-        { "id": "yogurt_dau_tam", "name_vi": "Yogurt dâu tằm", "name_en": "Mulberry Yogurt", "image": "./assets/images/pha-che-truyen-thong.jpg" },
+        { "id": "yogurt_da", "name_vi": "Sữa chua đá", "name_en": "Iced Yogurt", "image": "./assets/images/pha-che-truyen-thong.jpg" },
+        { "id": "yogurt_dac", "name_vi": "Sữa chua hạt đác", "name_en": "Yogurt palm seeds", "image": "./assets/images/pha-che-truyen-thong.jpg" },
+        { "id": "yogurt_dau_tam", "name_vi": "Sữa chua dâu", "name_en": "Strawberry yogurt", "image": "./assets/images/pha-che-truyen-thong.jpg" },
         { "id": "sua_chua_viet_quat", "name_vi": "Sữa chua việt quất", "name_en": "Blueberry Yogurt Drink", "image": "./assets/images/sua-chua-viet-quat.png" },
         { "id": "matcha_latte_cold_whisk", "name_vi": "Matcha latte cold whisk", "name_en": "Matcha Latte Cold Whisk", "image": "./assets/images/pha-che-truyen-thong.jpg" },
         { "id": "matcha_latte_nóng", "name_vi": "Matcha latte nóng", "name_en": "Hot Matcha Latte", "image": "./assets/images/pha-che-truyen-thong.jpg" }
