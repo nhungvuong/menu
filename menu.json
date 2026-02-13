@@ -25,6 +25,7 @@
         { "id": "yogurt_da", "name_vi": "Sữa chua đá", "name_en": "Iced Yogurt", "image": "./assets/images/pha-che-truyen-thong.jpg" },
         { "id": "yogurt_dau_tam", "name_vi": "Sữa chua dâu", "name_en": "Strawberry yogurt", "image": "./assets/images/pha-che-truyen-thong.jpg" },
         { "id": "sua_chua_viet_quat", "name_vi": "Sữa chua việt quất", "name_en": "Blueberry Yogurt Drink", "image": "./assets/images/sua-chua-viet-quat.png" },
+        { "id": "sua_chua_ca_phe", "name_vi": "Sữa chua cà phê", "name_en": "Coffee Yogurt Drink", "image": "./assets/images/sua-chua-ca-phe.png" },
         { "id": "matcha_latte_cold_whisk", "name_vi": "Matcha latte cold whisk", "name_en": "Matcha Latte Cold Whisk", "image": "./assets/images/pha-che-truyen-thong.jpg" },
         { "id": "matcha_latte_nóng", "name_vi": "Matcha latte nóng", "name_en": "Hot Matcha Latte", "image": "./assets/images/pha-che-truyen-thong.jpg" }
       ]
@@ -36,7 +37,7 @@
       "image": "./assets/images/ca-phe.jpg",
       "items": [
         { "id": "bac_xiu", "name_vi": "Bạc xỉu", "name_en": "White Coffee", "image": "./assets/images/bac-xiu.png" },
-        { "id": "ca_phe_den", "name_vi": "Cà phê đen", "name_en": "Black Coffee", "image": "./assets/images/ca-phe.jpg" },
+        { "id": "ca_phe_den", "name_vi": "Cà phê đen", "name_en": "Black Coffee", "image": "./assets/images/ca-phe-den.png" },
         { "id": "ca_phe_den_da", "name_vi": "Cà phê đen đá", "name_en": "Iced Black Coffee", "image": "./assets/images/ca-phe.jpg" },
         { "id": "ca_phe_sua", "name_vi": "Cà phê sữa", "name_en": "Milk Coffee", "image": "./assets/images/cf-sua.png" },
         { "id": "ca_phe_sua_da", "name_vi": "Cà phê sữa đá", "name_en": "Iced Milk Coffee", "image": "./assets/images/cf-sua-da.png" }
@@ -94,9 +95,7 @@
         { "id": "mi_trung", "name_vi": "Mì trứng", "name_en": "Egg Noodles", "image": "./assets/images/cuu-doi.png" },
         { "id": "mi_xuc_xich", "name_vi": "Mì xúc xích", "name_en": "Sausage Noodles", "image": "./assets/images/cuu-doi.png" },
         { "id": "mi_trung_xuc_xich", "name_vi": "Mì trứng xúc xích", "name_en": "Egg & Sausage Noodles", "image": "./assets/images/cuu-doi.png" },
-        { "id": "xuc_xich_sun_chien", "name_vi": "Xúc xích sụn chiên", "name_en": "Fried Sausage", 	"image": "./assets/images/cuu-doi.png"},
-        { "id": "snack", "name_vi": "Snack mái ngói", "name_en": "Crispy Snack", 	"image": "./assets/images/cuu-doi.png"},
-        { "id": "chan_ga_rut_xuong", "name_vi": "Chân gà rút xương bà Tuyết",	"name_en":"Boneless Chicken Feet","image":"./assets/images/cuu-doi.png"}
+        { "id": "xuc_xich_sun_chien", "name_vi": "Xúc xích sụn chiên", "name_en": "Fried Sausage", 	"image": "./assets/images/cuu-doi.png"}
       ]
     },
     {
