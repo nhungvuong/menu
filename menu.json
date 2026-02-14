@@ -18,7 +18,7 @@
         { "id": "chanh_nong", "name_vi": "Chanh nóng", "name_en": "Hot Lime Juice", "image": "./assets/images/pha-che-truyen-thong.jpg" },
         { "id": "sua_da_chanh", "name_vi": "Sữa đá chanh", "name_en": "Iced Lime Milk", "image": "./assets/images/pha-che-truyen-thong.jpg" },
         { "id": "sua_nong", "name_vi": "Sữa nóng", "name_en": "Hot Milk", "image": "./assets/images/pha-che-truyen-thong.jpg" },
-        { "id": "sua_sam_dua", "name_vi": "Sữa sâm dứa", "name_en": "Pandan Milk", "image": "./assets/images/sam-dua.png" },
+        { "id": "sua_sam_dua", "name_vi": "Sữa sâm dứa", "name_en": "", "image": "./assets/images/sam-dua.png" },
         { "id": "tra_lipton_nong", "name_vi": "Lipton nóng", "name_en": "Hot Lipton Tea", "image": "./assets/images/lipton-nong.png" },
         { "id": "tra_lipton_da", "name_vi": "Lipton đá", "name_en": "Iced Lipton Tea", "image": "./assets/images/lipton-da.png" },
         { "id": "tra_gung", "name_vi": "Trà gừng", "name_en": "Ginger Tea", "image": "./assets/images/pha-che-truyen-thong.jpg" },
@@ -65,7 +65,6 @@
       "name_en": "Bottled & Canned Drinks",
       "image": "./assets/images/nuoc-lon.jpg",
       "items": [
-        { "id": "xa_xi", "name_vi": "Xá xị", "name_en": "Sarsi Soda", "image": "./assets/images/xa-xi.png" },
         { "id": "bo_huc", "name_vi": "Bò húc", "name_en": "Red Bull", "image": "./assets/images/bo-huc.png" },
         { "id": "bi_dao", "name_vi": "Bí đao", "name_en": "Winter Melon Drink", "image": "./assets/images/bi-dao.png" },
         { "id": "seven_up", "name_vi": "7 Up", "name_en": "7 Up", "image": "./assets/images/7up.png" },
@@ -92,10 +91,10 @@
       "name_en": "Snacks",
       "image": "./assets/images/cuu-doi.png",
       "items": [
-        { "id": "mi_trung", "name_vi": "Mì trứng", "name_en": "Egg Noodles", "image": "./assets/images/cuu-doi.png" },
-        { "id": "mi_xuc_xich", "name_vi": "Mì xúc xích", "name_en": "Sausage Noodles", "image": "./assets/images/cuu-doi.png" },
-        { "id": "mi_trung_xuc_xich", "name_vi": "Mì trứng xúc xích", "name_en": "Egg & Sausage Noodles", "image": "./assets/images/cuu-doi.png" },
-        { "id": "xuc_xich_sun_chien", "name_vi": "Xúc xích sụn chiên", "name_en": "Fried Cartilage Sausage", 	"image": "./assets/images/cuu-doi.png"}
+        { "id": "mi_trung", "name_vi": "Mì trứng", "name_en": "Egg Noodles", "image": "./assets/images/mi-trung.jpg" },
+        { "id": "mi_xuc_xich", "name_vi": "Mì xúc xích", "name_en": "Sausage Noodles", "image": "./assets/images/mi-xuc-xich.jpg" },
+        { "id": "mi_trung_xuc_xich", "name_vi": "Mì trứng xúc xích", "name_en": "Egg & Sausage Noodles", "image": "./assets/images/mi-trung-xuc-xich.jpg" },
+        { "id": "xuc_xich_sun_chien", "name_vi": "Xúc xích sụn chiên", "name_en": "Fried Cartilage Sausage", 	"image": "./assets/images/xuc-xich-sun-chien.jpg"}
       ]
     },
     {
