@@ -11,21 +11,21 @@
       "name_en": "Traditional Drinks",
       "image": "./assets/images/pha-che-truyen-thong.jpg",
       "items": [
-        { "id": "khoang_chanh_duong", "name_vi": "Khoáng chanh đường", "name_en": "Sparkling Lime Drink", "image": "./assets/images/pha-che-truyen-thong.jpg" },
+        { "id": "khoang_chanh_duong", "name_vi": "Khoáng chanh đường", "name_en": "Lime Soda", "image": "./assets/images/pha-che-truyen-thong.jpg" },
         { "id": "cacao_nóng", "name_vi": "Cacao nóng", "name_en": "Hot Cocoa", "image": "./assets/images/cacao-nong.png" },
         { "id": "cacao_da", "name_vi": "Cacao đá", "name_en": "Iced Cocoa", "image": "./assets/images/cacao-da.png" },
-        { "id": "da_chanh", "name_vi": "Đá chanh", "name_en": "Iced Lime", "image": "./assets/images/pha-che-truyen-thong.jpg" },
-        { "id": "chanh_nong", "name_vi": "Chanh nóng", "name_en": "Hot Lime Tea", "image": "./assets/images/pha-che-truyen-thong.jpg" },
-        { "id": "sua_da_chanh", "name_vi": "Sữa đá chanh", "name_en": "Milk with Lime", "image": "./assets/images/pha-che-truyen-thong.jpg" },
+        { "id": "da_chanh", "name_vi": "Đá chanh", "name_en": "Iced Lime Juice", "image": "./assets/images/pha-che-truyen-thong.jpg" },
+        { "id": "chanh_nong", "name_vi": "Chanh nóng", "name_en": "Hot Lime Juice", "image": "./assets/images/pha-che-truyen-thong.jpg" },
+        { "id": "sua_da_chanh", "name_vi": "Sữa đá chanh", "name_en": "Iced Lime Milk", "image": "./assets/images/pha-che-truyen-thong.jpg" },
         { "id": "sua_nong", "name_vi": "Sữa nóng", "name_en": "Hot Milk", "image": "./assets/images/pha-che-truyen-thong.jpg" },
         { "id": "sua_sam_dua", "name_vi": "Sữa sâm dứa", "name_en": "Pandan Milk", "image": "./assets/images/sam-dua.png" },
-        { "id": "tra_lipton_nong", "name_vi": "Lipton nóng", "name_en": "Hot Lipton", "image": "./assets/images/pha-che-truyen-thong.jpg" },
-        { "id": "tra_lipton_da", "name_vi": "Lipton đá", "name_en": "Iced Lipton", "image": "./assets/images/pha-che-truyen-thong.jpg" },
+        { "id": "tra_lipton_nong", "name_vi": "Lipton nóng", "name_en": "Hot Lipton Tea", "image": "./assets/images/lipton-nong.png" },
+        { "id": "tra_lipton_da", "name_vi": "Lipton đá", "name_en": "Iced Lipton Tea", "image": "./assets/images/lipton-da.png" },
         { "id": "tra_gung", "name_vi": "Trà gừng", "name_en": "Ginger Tea", "image": "./assets/images/pha-che-truyen-thong.jpg" },
         { "id": "yogurt_da", "name_vi": "Sữa chua đá", "name_en": "Iced Yogurt", "image": "./assets/images/pha-che-truyen-thong.jpg" },
-        { "id": "yogurt_dau_tam", "name_vi": "Sữa chua dâu", "name_en": "Strawberry yogurt", "image": "./assets/images/pha-che-truyen-thong.jpg" },
-        { "id": "sua_chua_viet_quat", "name_vi": "Sữa chua việt quất", "name_en": "Blueberry Yogurt Drink", "image": "./assets/images/sua-chua-viet-quat.png" },
-        { "id": "sua_chua_ca_phe", "name_vi": "Sữa chua cà phê", "name_en": "Coffee Yogurt Drink", "image": "./assets/images/sua-chua-ca-phe.png" },
+        { "id": "yogurt_dau_tam", "name_vi": "Sữa chua dâu", "name_en": "Strawberry Yogurt", "image": "./assets/images/pha-che-truyen-thong.jpg" },
+        { "id": "sua_chua_viet_quat", "name_vi": "Sữa chua việt quất", "name_en": "Blueberry Yogurt", "image": "./assets/images/sua-chua-viet-quat.png" },
+        { "id": "sua_chua_ca_phe", "name_vi": "Sữa chua cà phê", "name_en": "Coffee Yogurt", "image": "./assets/images/sua-chua-ca-phe.png" },
         { "id": "matcha_latte_cold_whisk", "name_vi": "Matcha latte cold whisk", "name_en": "Matcha Latte Cold Whisk", "image": "./assets/images/pha-che-truyen-thong.jpg" },
         { "id": "matcha_latte_nóng", "name_vi": "Matcha latte nóng", "name_en": "Hot Matcha Latte", "image": "./assets/images/pha-che-truyen-thong.jpg" }
       ]
@@ -38,7 +38,7 @@
       "items": [
         { "id": "bac_xiu", "name_vi": "Bạc xỉu", "name_en": "White Coffee", "image": "./assets/images/bac-xiu.png" },
         { "id": "ca_phe_den", "name_vi": "Cà phê đen", "name_en": "Black Coffee", "image": "./assets/images/ca-phe-den.png" },
-        { "id": "ca_phe_den_da", "name_vi": "Cà phê đen đá", "name_en": "Iced Black Coffee", "image": "./assets/images/ca-phe.jpg" },
+        { "id": "ca_phe_den_da", "name_vi": "Cà phê đen đá", "name_en": "Iced Black Coffee", "image": "./assets/images/ca-phe-den-da.png" },
         { "id": "ca_phe_sua", "name_vi": "Cà phê sữa", "name_en": "Milk Coffee", "image": "./assets/images/cf-sua.png" },
         { "id": "ca_phe_sua_da", "name_vi": "Cà phê sữa đá", "name_en": "Iced Milk Coffee", "image": "./assets/images/cf-sua-da.png" }
       ]
@@ -51,7 +51,7 @@
       "note_en": "Seasonal",
       "image": "./assets/images/nuoc-ep.jpg",
       "items": [
-        { "id": "dua_tuoi", "name_vi": "Dừa tươi", "name_en": "Fresh Coconut", "image": "./assets/images/nuoc-ep.jpg" },
+        { "id": "dua_tuoi", "name_vi": "Dừa tươi", "name_en": "Fresh Coconut", "image": "./assets/images/dua.png" },
         { "id": "nuoc_cam_ep", "name_vi": "Nước cam ép", "name_en": "Orange Juice", "image": "./assets/images/nuoc-ep.jpg" },
         { "id": "nuoc_ep_oi", "name_vi": "Nước ép ổi", "name_en": "Guava Juice", "image": "./assets/images/nuoc-ep.jpg" },
         { "id": "nuoc_ep_thom", "name_vi": "Nước ép thơm", "name_en": "Pineapple Juice", "image": "./assets/images/nuoc-ep.jpg" },
@@ -66,21 +66,21 @@
       "image": "./assets/images/nuoc-lon.jpg",
       "items": [
         { "id": "xa_xi", "name_vi": "Xá xị", "name_en": "Sarsi Soda", "image": "./assets/images/xa-xi.png" },
-        { "id": "bo_huc", "name_vi": "Bò húc (Redbull)", "name_en": "Red Bull", "image": "./assets/images/bo-huc.png" },
+        { "id": "bo_huc", "name_vi": "Bò húc", "name_en": "Red Bull", "image": "./assets/images/bo-huc.png" },
         { "id": "bi_dao", "name_vi": "Bí đao", "name_en": "Winter Melon Drink", "image": "./assets/images/bi-dao.png" },
         { "id": "seven_up", "name_vi": "7 Up", "name_en": "7 Up", "image": "./assets/images/7up.png" },
         { "id": "dr_thanh", "name_vi": "Dr. Thanh", "name_en": "Dr. Thanh Herbal Tea", 	"image": "./assets/images/dr-thanh.png"},
         { "id": "nuoc_yen", "name_vi": "Nước yến", "name_en": "Bird’s Nest Drink", 	"image": "./assets/images/yen.png"},
         { "id": "nuoc_yen_nha_dam", "name_vi": "Nước yến nha đam", "name_en": "Bird’s Nest with Aloe Vera", "image": "./assets/images/yen-nha-dam.png" },
-        { "id": "nutri_dau", "name_vi": "Nutri dâu", "name_en": "Strawberry Milk Drink", "image": "./assets/images/nutri.png" },
-        { "id": "nuoc_khoang_lat", "name_vi": "Nước khoáng lạt", "name_en": "Mineral Water", "image": "./assets/images/khoang-lat.png" },
-        { "id": "nuoc_khoang_ngot", "name_vi": "Nước khoáng ngọt", "name_en": "Mineral Water", "image": "./assets/images/khoang-ngot.png" },
+        { "id": "nutri_dau", "name_vi": "Nutri dâu", "name_en": "Nutri Boost Strawberry", "image": "./assets/images/nutri.png" },
+        { "id": "nuoc_khoang_lat", "name_vi": "Nước khoáng lạt", "name_en": "Still Mineral Water", "image": "./assets/images/khoang-lat.png" },
+        { "id": "nuoc_khoang_ngot", "name_vi": "Nước khoáng ngọt", "name_en": "Sparkling Mineral Water", "image": "./assets/images/khoang-ngot.png" },
         { "id": "pepsi", "name_vi": "Pepsi", "name_en": "Pepsi", "image": "./assets/images/pepsi.png" },
         { "id": "tra_o_long", "name_vi": "Trà ô long", "name_en": "Oolong Tea", 	"image": "./assets/images/o-long.png"},
         { "id": "tra_xanh_0_do", "name_vi": "Trà xanh 0°", "name_en": "Zero Degree Green Tea", 	"image": "./assets/images/khong-do.png"},
         { "id": "revive", "name_vi": "Revive",	"name_en":	"Revive", 	"image": "./assets/images/revise.png"},
-        { "id": "revive_chanh_muối", "name_vi": "Revive chanh muối",	"name_en":	"Revive Salted Lemon", 	"image": "./assets/images/chanh-muoi.png"},
-        { "id": "sting",	"name_vi":"Sting","name_en":"Sting Energy Drink","image":"./assets/images/sting.png"},
+        { "id": "revive_chanh_muối", "name_vi": "Revive chanh muối",	"name_en":	"Revive Lemon Salt", 	"image": "./assets/images/chanh-muoi.png"},
+        { "id": "sting",	"name_vi":"Sting","name_en":"Sting","image":"./assets/images/sting.png"},
         {	"id":"sua_hop_yomost","name_vi":"Sữa hộp Yomost","name_en":"Yomost Yogurt Drink","image":"./assets/images/yomost.png"},
         {	"id":"sua_chua_hop","name_vi":"Sữa chua hộp","name_en":"Yogurt Cup","image":"./assets/images/sua-chua.png"},
         { "id": "sua_bich", "name_vi": "Sữa bịch", "name_en": "Milk Bag", "image": "./assets/images/sua-bich.png" }
@@ -95,7 +95,7 @@
         { "id": "mi_trung", "name_vi": "Mì trứng", "name_en": "Egg Noodles", "image": "./assets/images/cuu-doi.png" },
         { "id": "mi_xuc_xich", "name_vi": "Mì xúc xích", "name_en": "Sausage Noodles", "image": "./assets/images/cuu-doi.png" },
         { "id": "mi_trung_xuc_xich", "name_vi": "Mì trứng xúc xích", "name_en": "Egg & Sausage Noodles", "image": "./assets/images/cuu-doi.png" },
-        { "id": "xuc_xich_sun_chien", "name_vi": "Xúc xích sụn chiên", "name_en": "Fried Sausage", 	"image": "./assets/images/cuu-doi.png"}
+        { "id": "xuc_xich_sun_chien", "name_vi": "Xúc xích sụn chiên", "name_en": "Fried Cartilage Sausage", 	"image": "./assets/images/cuu-doi.png"}
       ]
     },
     {
@@ -104,7 +104,7 @@
       "name_en": "Roasted Seeds",
       "image": "./assets/images/hat-rang.jpg",
       "items": [
-        { "id": "hat_dua", "name_vi": "Hạt dưa", "name_en": "Melon Seeds", "image": "./assets/images/hat-rang.jpg" },
+        { "id": "hat_dua", "name_vi": "Hạt dưa", "name_en": "Watermelon Seeds", "image": "./assets/images/hat-rang.jpg" },
         { "id": "hat_huong_duong", "name_vi": "Hạt hướng dương", "name_en": "Sunflower Seeds", "image": "./assets/images/hat-rang.jpg" }
       ]
     }
