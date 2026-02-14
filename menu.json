@@ -26,7 +26,7 @@
         { "id": "yogurt_dau_tam", "name_vi": "Sữa chua dâu", "name_en": "Strawberry Yogurt", "image": "./assets/images/pha-che-truyen-thong.jpg" },
         { "id": "sua_chua_viet_quat", "name_vi": "Sữa chua việt quất", "name_en": "Blueberry Yogurt", "image": "./assets/images/sua-chua-viet-quat.png" },
         { "id": "sua_chua_ca_phe", "name_vi": "Sữa chua cà phê", "name_en": "Coffee Yogurt", "image": "./assets/images/sua-chua-ca-phe.png" },
-        { "id": "matcha_latte_cold_whisk", "name_vi": "Matcha latte cold whisk", "name_en": "Matcha Latte Cold Whisk", "image": "./assets/images/pha-che-truyen-thong.jpg" },
+        { "id": "matcha_latte_cold_whisk", "name_vi": "Matcha latte cold whisk", "image": "./assets/images/pha-che-truyen-thong.jpg" },
         { "id": "matcha_latte_nóng", "name_vi": "Matcha latte nóng", "name_en": "Hot Matcha Latte", "image": "./assets/images/pha-che-truyen-thong.jpg" }
       ]
     },

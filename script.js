@@ -78,6 +78,7 @@ function openCategory(category) {
 function backToCategories() {
   document.getElementById("product-list").classList.add("hidden");
   document.getElementById("category-list").classList.remove("hidden");
+  backBtn.style.display = "none";
 }
 
 
