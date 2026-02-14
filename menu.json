@@ -54,7 +54,7 @@
       "items": [
         { "id": "dua_tuoi", "name_vi": "Dừa tươi", "name_en": "Coconut", "image": "./assets/images/dua.png" },
         { "id": "dua_nguyen_trai", "name_vi": "Dừa nguyên trái", "name_en": "Coconut", "image": "./assets/images/dua-nguyen-trai.png" },
-        { "id": "nuoc_cam_ep", "name_vi": "Nước cam ép", "name_en": "Orange Juice", "image": "./assets/images/nuoc-ep.jpg" },
+        { "id": "nuoc_cam_ep", "name_vi": "Nước cam ép", "name_en": "Orange Juice", "image": "./assets/images/ep-cam.png" },
         { "id": "nuoc_ep_oi", "name_vi": "Nước ép ổi", "name_en": "Guava Juice", "image": "./assets/images/nuoc-ep.jpg" },
         { "id": "nuoc_ep_thom", "name_vi": "Nước ép thơm", "name_en": "Pineapple Juice", "image": "./assets/images/nuoc-ep.jpg" },
         { "id": "nuoc_ep_ca_chua", "name_vi": "Nước ép cà chua", "name_en": "Tomato Juice", "image": "./assets/images/ca-chua.png" },
