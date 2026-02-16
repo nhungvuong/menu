@@ -17,7 +17,7 @@
         { "id": "da_chanh", "name_vi": "Đá chanh", "name_en": "Iced Lime Juice", "image": "./assets/images/pha-che-truyen-thong.jpg" },
         { "id": "chanh_nong", "name_vi": "Chanh nóng", "name_en": "Hot Lime Juice", "image": "./assets/images/pha-che-truyen-thong.jpg" },
         { "id": "sua_da_chanh", "name_vi": "Sữa đá chanh", "name_en": "Iced Lime Milk", "image": "./assets/images/pha-che-truyen-thong.jpg" },
-        { "id": "sua_nong", "name_vi": "Sữa nóng", "name_en": "Hot Milk", "image": "./assets/images/pha-che-truyen-thong.jpg" },
+        { "id": "sua_nong", "name_vi": "Sữa nóng", "name_en": "Hot Milk", "image": "./assets/images/sua-nong.png" },
         { "id": "sua_sam_dua", "name_vi": "Sữa sâm dứa", "name_en": "sữa đặc, sâm dứa", "image": "./assets/images/sam-dua.png" },
         { "id": "sam_dua_sữa_tươi", "name_vi": "Sâm dứa sữa tươi", "name_en": "", "image": "./assets/images/sam-dua-sua-tuoi.png" },
         { "id": "tra_lipton_nong", "name_vi": "Lipton nóng", "name_en": "Hot Lipton Tea", "image": "./assets/images/lipton-nong.png" },
@@ -28,7 +28,9 @@
         { "id": "sua_chua_viet_quat", "name_vi": "Sữa chua việt quất", "name_en": "Blueberry Yogurt", "image": "./assets/images/sua-chua-viet-quat.png" },
         { "id": "sua_chua_ca_phe", "name_vi": "Sữa chua cà phê", "name_en": "Coffee Yogurt", "image": "./assets/images/sua-chua-ca-phe.png" },
         { "id": "matcha_latte_cold_whisk", "name_vi": "Matcha latte cold whisk", "image": "./assets/images/pha-che-truyen-thong.jpg" },
-        { "id": "matcha_latte_nóng", "name_vi": "Matcha latte nóng", "name_en": "Hot Matcha Latte", "image": "./assets/images/pha-che-truyen-thong.jpg" }
+        { "id": "matcha_latte_nóng", "name_vi": "Matcha latte nóng", "name_en": "Hot Matcha Latte", "image": "./assets/images/pha-che-truyen-thong.jpg" },
+        { "id": "soda_dau", "name_vi": "Soda dâu", "name_en": "Strawberry Soda", "image": "./assets/images/soda-dau.png" },
+        { "id": "soda_viet_quat", "name_vi": "Soda việt quất", "name_en": "Blueberry Soda", "image": "./assets/images/soda-viet-quat.png" }
       ]
     },
     {
@@ -56,7 +58,7 @@
         { "id": "dua_nguyen_trai", "name_vi": "Dừa nguyên trái", "name_en": "Coconut", "image": "./assets/images/dua-nguyen-trai.png" },
         { "id": "nuoc_cam_ep", "name_vi": "Nước cam ép", "name_en": "Orange Juice", "image": "./assets/images/ep-cam.png" },
         { "id": "nuoc_ep_oi", "name_vi": "Nước ép ổi", "name_en": "Guava Juice", "image": "./assets/images/nuoc-ep.jpg" },
-        { "id": "nuoc_ep_thom", "name_vi": "Nước ép thơm", "name_en": "Pineapple Juice", "image": "./assets/images/nuoc-ep.jpg" },
+        { "id": "nuoc_ep_thom", "name_vi": "Nước ép thơm", "name_en": "Pineapple Juice", "image": "./assets/images/ep-thom.png" },
         { "id": "nuoc_ep_ca_chua", "name_vi": "Nước ép cà chua", "name_en": "Tomato Juice", "image": "./assets/images/ca-chua.png" },
         { "id": "nuoc_ep_ca_rot", "name_vi": "Nước ép cà rốt", "name_en": "Carrot Juice", 	"image": "./assets/images/ca-rot.png"}
       ]
