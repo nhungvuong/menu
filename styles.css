@@ -109,6 +109,11 @@ body {
   margin-top: 0;
 }
 
+.product-note {
+  font-weight: normal;
+  font-size: 12px;
+}
+
 .product-en-name {
   font-weight: normal;
 }

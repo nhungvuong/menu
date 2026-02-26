@@ -66,7 +66,9 @@ function openCategory(category) {
           <div class="product-name">
             ${item.name_vi}
             <br>
+            ${item.note_vi ? `<span class="product-note">(${item.note_vi})</span><br>` : ''}
             <span class="product-en-name">${item.name_en ? `(${item.name_en})` : ''}</span>
+            ${item.note_en ? `<br><span class="product-note">(${item.note_en})</span>` : ''}
           </div>
         </div>
       `).join("")}
